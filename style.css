@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    background-color: rgb(33, 48, 175);
+    width: 40%;
+    border-radius: 20px 0px 0px 20px;
+}
+.image img{
+    height: 85px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+.boxes {
+    background-image: url(background.jpg);
+    background-size: cover;
+   width: 60%;
+}
+.main{
+  display: flex;
+  height: 100vh;
+}
+form input{
+    margin-left:48px ;
+    margin-top: 25px;
+    width: 83%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #4671c6;
+}
+.two{
+    margin-top: 9px;    
+}
+.two::placeholder{
+    color: white;
+    padding-left: 80px;
+    align-items: center;
+}
+.one::placeholder{
+    color: white;
+    padding-left: 80px;
+    align-items: center;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.button{
+    width: 83%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(62, 104, 241);
+     margin-top: 20px;
+     margin-left:48px ;
+     color: white;
+}
+.para{
+    text-align: center;
+    margin-left: auto;
+}
+.btn{
+    height: 35px;
+    width: 83%;
+    margin-left:48px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #7799dd;
+}
+.btnn{
+    height: 35px;
+    width: 83%;
+    margin-left:48px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #7799dd;
+}
+.span{
+    color: white;
+     margin-left: 130px;
+}
+.spaan a{
+    color: rgb(19, 223, 250);
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .box {
+    width: 100%;
+    border-radius: 0;
+    height: 100vh;
+  }
+
+  .boxes {
+    display: none;
+  }
+
+  .image img {
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  form input,
+  .button,
+  .btn,
+  .btnn {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .span,
+  .spaan {
+    text-align: center;
+    display: block;
+  }
+
+  p {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+}
